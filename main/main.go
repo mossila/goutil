@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/mossila/util"
+	"github.com/mossila/goutil"
 )
 
 func main() {
-	for s := range util.Readlns("README.md") {
+	for s := range goutil.Readlns("README.md") {
 		fmt.Println(s)
 	}
 }
