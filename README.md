@@ -3,7 +3,7 @@ Utility lib for go
 
 ##go get
 
-`go get github.com/mossila/util`
+`go get github.com/mossila/goutil`
 
 ## Readlns 
 usage 
@@ -14,7 +14,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/mossila/util"
+	"github.com/mossila/goutil"
 )
 
 func main() {
