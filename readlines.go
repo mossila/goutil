@@ -31,9 +31,3 @@ func Readlns(path string) chan string {
 	}()
 	return outChan
 }
-func main() {
-	filename := "test.txt"
-	for s := range Readlns(filename) {
-		fmt.Println(s)
-	}
-}
