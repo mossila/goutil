@@ -14,3 +14,10 @@ func PrintJSON(v interface{}) {
 	}
 	fmt.Println(string(b))
 }
+
+//PanicOnError if error panic
+func PanicOnError(e error) {
+	if e != nil {
+		panic(e)
+	}
+}
