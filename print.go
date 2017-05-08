@@ -5,7 +5,8 @@ import (
 	"fmt"
 )
 
-func printJSON(v interface{}) {
+//PrintJSON pring as json result
+func PrintJSON(v interface{}) {
 	b, err := json.Marshal(v)
 	if err != nil {
 		fmt.Println(err)
